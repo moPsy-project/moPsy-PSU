@@ -4,7 +4,7 @@
 > documentation, for the moPsy Power Supply Unit (PSU).
 
 Please make sure you also have the
-[moPsy-KiCad-resources](https://github.com/penguineer/moPsy-KiCad-resources)
+[moPsy-KiCad-resources](https://github.com/moPsy-project/moPsy-KiCad-resources)
 available when opening these projects.
 
 ## Status of the Design
