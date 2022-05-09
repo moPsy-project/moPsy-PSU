@@ -1,0 +1,345 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "moPsy Capacitor Charge Control"
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:D D2
+U 1 1 6115D740
+P 7650 3250
+F 0 "D2" H 7650 3033 50  0000 C CNN
+F 1 "1N4148" H 7650 3124 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 7650 3250 50  0001 C CNN
+F 3 "~" H 7650 3250 50  0001 C CNN
+	1    7650 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L Timer:LM555xN U2
+U 1 1 612CB09E
+P 6200 3650
+F 0 "U2" H 6300 4100 50  0000 C CNN
+F 1 "LM555xN" H 6400 4000 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 6850 3250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm555.pdf" H 7050 3250 50  0001 C CNN
+	1    6200 3650
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6700 3650
+$Comp
+L Device:CP C4
+U 1 1 612E7D4E
+P 6900 3650
+F 0 "C4" H 7018 3696 50  0000 L CNN
+F 1 "100u" H 7018 3605 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 6938 3500 50  0001 C CNN
+F 3 "~" H 6900 3650 50  0001 C CNN
+	1    6900 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 612E851C
+P 6900 4050
+F 0 "R2" V 6693 4050 50  0000 C CNN
+F 1 "47k" V 6784 4050 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6830 4050 50  0001 C CNN
+F 3 "~" H 6900 4050 50  0001 C CNN
+F 4 "ARC ACS5S R80 K" V 6900 4050 50  0001 C CNN "REICHELT"
+	1    6900 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-12V #PWR0101
+U 1 1 612FF71A
+P 7050 4300
+F 0 "#PWR0101" H 7050 4400 50  0001 C CNN
+F 1 "-12V" H 7065 4473 50  0000 C CNN
+F 2 "" H 7050 4300 50  0001 C CNN
+F 3 "" H 7050 4300 50  0001 C CNN
+	1    7050 4300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7050 4250 7050 4300
+Wire Wire Line
+	6200 4050 6200 4250
+Wire Wire Line
+	6200 4250 6900 4250
+$Comp
+L power:GND #PWR0102
+U 1 1 6130A3F6
+P 7250 3100
+F 0 "#PWR0102" H 7250 2850 50  0001 C CNN
+F 1 "GND" H 7255 2927 50  0000 C CNN
+F 2 "" H 7250 3100 50  0001 C CNN
+F 3 "" H 7250 3100 50  0001 C CNN
+	1    7250 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 3050 5250 3000
+Wire Wire Line
+	5250 3000 5650 3000
+Wire Wire Line
+	6200 3250 6200 3000
+Connection ~ 6200 3000
+Wire Wire Line
+	6200 3000 6900 3000
+Wire Wire Line
+	5700 3850 5650 3850
+Wire Wire Line
+	5650 3850 5650 3000
+Connection ~ 5650 3000
+Wire Wire Line
+	5650 3000 6200 3000
+Wire Wire Line
+	5700 3650 5400 3650
+Wire Wire Line
+	6900 4250 6900 4200
+Wire Wire Line
+	6900 3500 6900 3000
+Connection ~ 6900 4250
+Wire Wire Line
+	6900 4250 7050 4250
+Connection ~ 6900 3000
+Wire Wire Line
+	6900 3900 6900 3850
+Wire Wire Line
+	6200 4250 5400 4250
+Connection ~ 6200 4250
+Wire Wire Line
+	5400 4250 5400 4200
+Wire Wire Line
+	5400 3650 5400 3900
+$Comp
+L Device:C C3
+U 1 1 61397E46
+P 5400 4050
+F 0 "C3" H 5515 4096 50  0000 L CNN
+F 1 "10n" H 5515 4005 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 5438 3900 50  0001 C CNN
+F 3 "~" H 5400 4050 50  0001 C CNN
+	1    5400 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 6141C4B1
+P 5250 3200
+F 0 "R1" V 5043 3200 50  0000 C CNN
+F 1 "10k" V 5134 3200 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5180 3200 50  0001 C CNN
+F 3 "~" H 5250 3200 50  0001 C CNN
+F 4 "ARC ACS5S R80 K" V 5250 3200 50  0001 C CNN "REICHELT"
+	1    5250 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 3350 5250 3450
+Wire Wire Line
+	5250 4250 5400 4250
+Connection ~ 5400 4250
+Wire Wire Line
+	5700 3450 5250 3450
+Connection ~ 5250 3450
+Wire Wire Line
+	5250 3450 5250 4250
+Wire Wire Line
+	6700 3850 6900 3850
+Connection ~ 6900 3850
+Wire Wire Line
+	6900 3850 6900 3800
+Text GLabel 7800 3450 2    39   Output ~ 0
+REL_Charge
+Text GLabel 7800 3550 2    39   Output ~ 0
+REL_PwrGood
+Text GLabel 7800 3000 2    39   Input ~ 0
+REL_RETURN
+Wire Wire Line
+	6700 3450 7650 3450
+Wire Wire Line
+	7800 3550 7650 3550
+Wire Wire Line
+	7650 3550 7650 3450
+Connection ~ 7650 3450
+Wire Wire Line
+	7650 3450 7800 3450
+Wire Wire Line
+	7650 3450 7650 3400
+Wire Wire Line
+	7650 3100 7650 3000
+Connection ~ 7650 3000
+Wire Wire Line
+	7650 3000 7800 3000
+Wire Wire Line
+	6900 3000 7250 3000
+Wire Wire Line
+	7250 3100 7250 3000
+Connection ~ 7250 3000
+Wire Wire Line
+	7250 3000 7650 3000
+Wire Wire Line
+	1000 2850 1100 2850
+$Comp
+L Device:D D1
+U 1 1 6143C414
+P 1250 2850
+F 0 "D1" H 1250 2633 50  0000 C CNN
+F 1 "1N4001" H 1250 2724 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 1250 2850 50  0001 C CNN
+F 3 "~" H 1250 2850 50  0001 C CNN
+	1    1250 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 2850 1850 2850
+Connection ~ 1550 2850
+Wire Wire Line
+	1550 2800 1550 2850
+Wire Wire Line
+	1550 2450 1550 2500
+Wire Wire Line
+	2750 2850 3200 2850
+Connection ~ 2750 2850
+Wire Wire Line
+	2750 2800 2750 2850
+Wire Wire Line
+	2750 2450 2750 2500
+Wire Wire Line
+	2450 2850 2750 2850
+Wire Wire Line
+	1400 2850 1550 2850
+Connection ~ 2750 2450
+Wire Wire Line
+	2750 2450 3200 2450
+$Comp
+L power:GND #PWR0103
+U 1 1 612B1793
+P 3200 2450
+F 0 "#PWR0103" H 3200 2200 50  0001 C CNN
+F 1 "GND" H 3205 2277 50  0000 C CNN
+F 2 "" H 3200 2450 50  0001 C CNN
+F 3 "" H 3200 2450 50  0001 C CNN
+	1    3200 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-12V #PWR0104
+U 1 1 612A8EE9
+P 3200 2850
+F 0 "#PWR0104" H 3200 2950 50  0001 C CNN
+F 1 "-12V" H 3215 3023 50  0000 C CNN
+F 2 "" H 3200 2850 50  0001 C CNN
+F 3 "" H 3200 2850 50  0001 C CNN
+	1    3200 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2150 2450 2750 2450
+Connection ~ 2150 2450
+Wire Wire Line
+	1550 2450 2150 2450
+Wire Wire Line
+	2150 2550 2150 2450
+Text GLabel 1000 2850 0    39   Input ~ 0
+-15V
+$Comp
+L Device:C C2
+U 1 1 61297BEC
+P 2750 2650
+F 0 "C2" H 2865 2696 50  0000 L CNN
+F 1 "100n" H 2865 2605 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 2788 2500 50  0001 C CNN
+F 3 "~" H 2750 2650 50  0001 C CNN
+	1    2750 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C1
+U 1 1 61297317
+P 1550 2650
+F 0 "C1" H 1668 2696 50  0000 L CNN
+F 1 "33u" H 1668 2605 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 1588 2500 50  0001 C CNN
+F 3 "~" H 1550 2650 50  0001 C CNN
+	1    1550 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:LM79L12_TO92 U1
+U 1 1 61295FF0
+P 2150 2850
+F 0 "U1" H 2150 2701 50  0000 C CNN
+F 1 "LM79L12_TO92" H 2150 2610 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2150 2650 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm79l.pdf" H 2150 2850 50  0001 C CNN
+F 4 "LM 79L12 ACZ" H 2150 2850 50  0001 C CNN "REICHELT"
+	1    2150 2850
+	1    0    0    -1  
+$EndComp
+Text GLabel 1200 1350 2    39   Input ~ 0
+REL_Charge
+Text GLabel 1200 1450 2    39   Input ~ 0
+REL_PwrGood
+Text GLabel 1200 1150 2    39   Output ~ 0
++15V_SW
+Text GLabel 1200 1250 2    39   Output ~ 0
+-15V_SW
+Text GLabel 1200 850  2    39   Output ~ 0
++15V
+Text GLabel 1200 1050 2    39   Output ~ 0
+-15V
+Text GLabel 1200 1550 2    39   Output ~ 0
+REL_RETURN
+$Comp
+L Connector:Conn_01x08_Male J1
+U 1 1 613C2AA5
+P 850 1150
+F 0 "J1" H 958 1631 50  0000 C CNN
+F 1 "Conn_01x08_Male" H 958 1540 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Horizontal" H 850 1150 50  0001 C CNN
+F 3 "~" H 850 1150 50  0001 C CNN
+	1    850  1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 850  1200 850 
+Wire Wire Line
+	1050 1050 1200 1050
+Wire Wire Line
+	1050 1150 1200 1150
+Wire Wire Line
+	1200 1250 1050 1250
+Wire Wire Line
+	1050 1350 1200 1350
+Wire Wire Line
+	1200 1450 1050 1450
+Wire Wire Line
+	1050 1550 1200 1550
+Wire Wire Line
+	1050 950  1750 950 
+Wire Wire Line
+	1750 950  1750 1000
+$Comp
+L power:GND #PWR0105
+U 1 1 613C2AB8
+P 1750 1000
+F 0 "#PWR0105" H 1750 750 50  0001 C CNN
+F 1 "GND" H 1755 827 50  0000 C CNN
+F 2 "" H 1750 1000 50  0001 C CNN
+F 3 "" H 1750 1000 50  0001 C CNN
+	1    1750 1000
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
