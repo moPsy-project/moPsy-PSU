@@ -3,6 +3,10 @@
 > This reposiory contains schematics and PCB files, as well as
 > documentation, for the moPsy Power Supply Unit (PSU).
 
+Please make sure you also have the
+[moPsy-KiCad-resources](https://github.com/penguineer/moPsy-KiCad-resources)
+available when opening these projects.
+
 ## Status of the Design
 
 I am still in the design process and this is not the final revision.
