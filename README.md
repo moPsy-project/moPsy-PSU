@@ -21,6 +21,13 @@ This repository is a collection of several projects making up my PSU:
 * [BusBoard 2](moPsy_BusBoard_2)
 * [Regulator +5V](moPsy_Regulator_5Vpos_BusGate)
 
+Parts that are WIP:
+
+* [Rectifier Board](#11)
+* [Regulator 12V positive](#12)
+* [Regulator 12V negative](#13)
+* [Capacitor Charger](#9)
+* [Capacitor Board](#10)
 
 ## License
 
