@@ -18,6 +18,7 @@ More information will appear here as I update the project.
 This repository is a collection of several projects making up my PSU:
 
 * [BusBoard 1](moPsy_BusBoard_1)
+* [BusBoard 2](moPsy_BusBoard_2)
 
 
 ## License
