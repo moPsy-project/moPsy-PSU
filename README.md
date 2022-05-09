@@ -19,6 +19,7 @@ This repository is a collection of several projects making up my PSU:
 
 * [BusBoard 1](moPsy_BusBoard_1)
 * [BusBoard 2](moPsy_BusBoard_2)
+* [Regulator +5V](moPsy_Regulator_5Vpos_BusGate)
 
 
 ## License
