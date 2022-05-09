@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "moPsy")(type "Legacy")(uri "/home/tux/moPsy/PSU/moPsy.lib")(options "")(descr ""))
+  (lib (name "moPsy_Regulator_12Vneg-rescue")(type "Legacy")(uri "${KIPRJMOD}/moPsy_Regulator_12Vneg-rescue.lib")(options "")(descr ""))
+)
