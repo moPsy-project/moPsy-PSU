@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "moPsy_Regulator_12Vpos-rescue")(type "Legacy")(uri "${KIPRJMOD}/moPsy_Regulator_12Vpos-rescue.lib")(options "")(descr ""))
+)
