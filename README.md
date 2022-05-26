@@ -39,12 +39,9 @@ Parts that are WIP:
 
 ## License
 
-© 2021-2022 Stefan Haun
+![](doc/oshw-logo-antipixel.png "OSHW Banner")
+![](doc/cc-by-sa-80x15.png "CC BY-SA Banner")
 
-I plan to publish this repository unter an open hardware license, but still
-have to research the best option. Until then the contents and contributions
-are copyrighted to myself.
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
-Please let me know if you want to use any if its contents. This is merely a
-legal necessity to allow an easy license switch later on.
-
+Exception: The moPsy logo is © 2021-2022 Stefan Haun
