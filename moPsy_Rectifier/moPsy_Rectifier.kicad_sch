@@ -2330,7 +2330,7 @@
     (pin "2" (uuid b4d6d1b1-164b-4ba1-a0d0-1a8e832978a9))
   )
 
-  (symbol (lib_id "Device:LED") (at 44.45 137.16 0) (unit 1)
+  (symbol (lib_id "Device:LED") (at 44.45 137.16 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061462aa3)
     (property "Reference" "D2" (id 0) (at 44.45 139.7 0))
