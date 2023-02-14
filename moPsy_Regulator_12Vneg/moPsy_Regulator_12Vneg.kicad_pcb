@@ -4079,7 +4079,7 @@
   (gr_text "-V" (at 96 92) (layer "F.SilkS") (tstamp 1de92603-4525-4b03-b6ae-f2ac18e439fc)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "moPsy PSU Regulator -12V" (at 114.5 72.5 180) (layer "F.SilkS") (tstamp 2a9e3c62-80fd-49dd-8e31-10ecf9df8a53)
+  (gr_text "moPsy PSU Regulator -12V r1.1" (at 114.5 72.5 180) (layer "F.SilkS") (tstamp 2a9e3c62-80fd-49dd-8e31-10ecf9df8a53)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text "GND" (at 96.5 90) (layer "F.SilkS") (tstamp 92555965-4e9b-4adb-bef2-59bc4c705724)
