@@ -44,4 +44,4 @@ Parts that are WIP:
 
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
-Exception: The moPsy logo is © 2021-2022 Stefan Haun
+Exception: The moPsy logo is © 2021-2024 Stefan Haun
