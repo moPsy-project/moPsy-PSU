@@ -2856,7 +2856,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4cb7a82e-520f-45f5-9682-8a82bc24c4e3")
-		(property "Reference" "C1"
+		(property "Reference" "C4"
 			(at 256.54 29.5909 0)
 			(effects
 				(font
@@ -2910,7 +2910,7 @@
 		(instances
 			(project "moPsy_Regulator"
 				(path "/07db4171-bb9d-4d0b-8c69-a93dfdf899ac"
-					(reference "C1")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -2995,7 +2995,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "62c63680-abb0-46b3-9c41-dbf743be87c0")
-		(property "Reference" "C4"
+		(property "Reference" "C1"
 			(at 97.79 105.4099 0)
 			(effects
 				(font
@@ -3049,7 +3049,7 @@
 		(instances
 			(project "moPsy_Regulator"
 				(path "/07db4171-bb9d-4d0b-8c69-a93dfdf899ac"
-					(reference "C4")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -3624,7 +3624,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "823cc731-859a-4473-bff6-76a5cc183710")
-		(property "Reference" "J4"
+		(property "Reference" "J3"
 			(at 273.685 30.48 0)
 			(effects
 				(font
@@ -3673,7 +3673,7 @@
 		(instances
 			(project "moPsy_Regulator"
 				(path "/07db4171-bb9d-4d0b-8c69-a93dfdf899ac"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -4259,7 +4259,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d96d12a9-d2b3-47f8-915c-7922f469cc5e")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 273.685 22.86 0)
 			(effects
 				(font
@@ -4308,7 +4308,7 @@
 		(instances
 			(project "moPsy_Regulator"
 				(path "/07db4171-bb9d-4d0b-8c69-a93dfdf899ac"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
