@@ -1,0 +1,130 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:CP C1
+U 1 1 60CA55EA
+P 3000 2350
+F 0 "C1" H 3118 2396 50  0000 L CNN
+F 1 "CP" H 3118 2305 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D22.0mm_P10.00mm_SnapIn" H 3038 2200 50  0001 C CNN
+F 3 "~" H 3000 2350 50  0001 C CNN
+	1    3000 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C2
+U 1 1 60CA5AA7
+P 3500 2350
+F 0 "C2" H 3618 2396 50  0000 L CNN
+F 1 "CP" H 3618 2305 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D22.0mm_P10.00mm_SnapIn" H 3538 2200 50  0001 C CNN
+F 3 "~" H 3500 2350 50  0001 C CNN
+	1    3500 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0101
+U 1 1 60CA6F03
+P 2800 2000
+F 0 "#PWR0101" H 2800 1850 50  0001 C CNN
+F 1 "VCC" H 2815 2173 50  0000 C CNN
+F 2 "" H 2800 2000 50  0001 C CNN
+F 3 "" H 2800 2000 50  0001 C CNN
+	1    2800 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VEE #PWR0102
+U 1 1 60CA79AB
+P 2800 2700
+F 0 "#PWR0102" H 2800 2550 50  0001 C CNN
+F 1 "VEE" H 2815 2873 50  0000 C CNN
+F 2 "" H 2800 2700 50  0001 C CNN
+F 3 "" H 2800 2700 50  0001 C CNN
+	1    2800 2700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3500 2200 3000 2200
+Wire Wire Line
+	3000 2200 2800 2200
+Wire Wire Line
+	2800 2200 2800 2000
+Connection ~ 3000 2200
+Wire Wire Line
+	3000 2500 2800 2500
+Wire Wire Line
+	2800 2500 2800 2700
+Wire Wire Line
+	3000 2500 3500 2500
+Connection ~ 3000 2500
+$Comp
+L Connector:Conn_01x01_Male J1
+U 1 1 60CA92D8
+P 2100 2200
+F 0 "J1" H 2208 2381 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 2208 2290 50  0000 C CNN
+F 2 "moPsy:Connector FS-P475" H 2100 2200 50  0001 C CNN
+F 3 "~" H 2100 2200 50  0001 C CNN
+	1    2100 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J2
+U 1 1 60CA964A
+P 2100 2500
+F 0 "J2" H 2208 2681 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 2208 2590 50  0000 C CNN
+F 2 "moPsy:Connector FS-P475" H 2100 2500 50  0001 C CNN
+F 3 "~" H 2100 2500 50  0001 C CNN
+	1    2100 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J3
+U 1 1 60CA99C3
+P 4150 2200
+F 0 "J3" H 4122 2132 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 4122 2223 50  0000 R CNN
+F 2 "moPsy:Connector FS-P475" H 4150 2200 50  0001 C CNN
+F 3 "~" H 4150 2200 50  0001 C CNN
+	1    4150 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J4
+U 1 1 60CA9CC5
+P 4150 2500
+F 0 "J4" H 4122 2432 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 4122 2523 50  0000 R CNN
+F 2 "moPsy:Connector FS-P475" H 4150 2500 50  0001 C CNN
+F 3 "~" H 4150 2500 50  0001 C CNN
+	1    4150 2500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2800 2200 2300 2200
+Connection ~ 2800 2200
+Wire Wire Line
+	2800 2500 2300 2500
+Connection ~ 2800 2500
+Wire Wire Line
+	3500 2500 3950 2500
+Connection ~ 3500 2500
+Wire Wire Line
+	3500 2200 3950 2200
+Connection ~ 3500 2200
+$EndSCHEMATC
